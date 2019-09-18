@@ -1,3 +1,7 @@
+;Write X86/64 ALP to perform non-overlapped and overlapped block transfer (with and
+;without string specific instructions). Block containing data can be defined in the data
+;segment.
+
 %macro Print 04
 	mov rax , %1        ;%no is always in increasing order to denote position of the sequence of parameters
 	mov rdi , %2
