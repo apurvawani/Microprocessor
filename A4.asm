@@ -1,3 +1,7 @@
+;Write X86/64 ALP to perform multiplication of two 8-bit hexadecimal numbers. Use
+;successive addition and add and shift method. (use of 64-bit registers is expected)
+
+
 %macro scall 4                    ;macro to take input and output
         mov rax,%1
         mov rdi,%2
