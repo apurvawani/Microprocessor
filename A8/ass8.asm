@@ -1,3 +1,7 @@
+;Write X86 menu driven Assembly Language Program (ALP) to implement OS (DOS)
+;commands TYPE, COPY and DELETE using file operations. User is supposed to provide
+;command line arguments in all cases.
+
 %macro Print 4
 	mov rax , %1
 	mov rdi , %2
