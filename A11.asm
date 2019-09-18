@@ -1,3 +1,7 @@
+;Write 80387 ALP to obtain: i) Mean ii) Variance iii) Standard Deviation Also plot the
+;histogram for the data set. The data elements are available in a text file.
+
+
 %macro Print 04
 	mov rax , %1
 	mov rdi , %2
