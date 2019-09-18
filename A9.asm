@@ -1,4 +1,4 @@
-;Write x86 ALP to find the factorial of a given integer number on ;a command line without recursion.  
+;Write x86 ALP to find the factorial of a given integer number on a command line without recursion.  
 ;Explicit stack manipulation is expected in the code.
 
 %macro print 04
