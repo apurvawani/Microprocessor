@@ -1,7 +1,5 @@
 ;Write 80387 ALP to find the roots of the quadratic equation. All ;the possible cases must be considered in calculating the roots
 
-
-
 %macro myprintf 1		; this macro is for printing just 1 term ie for 1 %lf
 	mov rdi,formatpf
 	sub rsp,8
