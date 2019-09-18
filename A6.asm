@@ -1,3 +1,6 @@
+;Write X86/64 ALP to switch from real mode to protected mode and display the values of
+;GDTR, LDTR, IDTR, TR and MSW Registers.
+
 %macro Print 04
 	mov rax , %1        ;%no is always in increasing order to denote position of the sequence of parameters
 	mov rdi , %2
