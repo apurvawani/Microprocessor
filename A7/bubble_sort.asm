@@ -1,5 +1,5 @@
-;Write X86 program to sort the list of integers in ascending/descending order. Read the input
-;from the text file and write the sorted data back to the same text file using bubble sort 
+;Write X86 program to sort the list of integers in ascending/descending order. Read the input from the text file and 
+;write the sorted data back to the same text file using bubble sort 
 
 %macro Print 04
 	mov rax , %1        ;%no is always in increasing order to denote position of the sequence of parameters
