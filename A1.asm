@@ -1,3 +1,5 @@
+;Write X86/64 ALP to count number of positive and negative numbers from the array. 
+
 section .data
         ;welmsg db 10,'Welcome to count +ve and -ve nos'
         ;welmsg_len equ $-welmsg
