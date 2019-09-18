@@ -1,3 +1,6 @@
+;Write a TSR to generate the pattern of the frequency tones by reading the Real Time
+;Clock (RTC). The duration of the each tone is solely decided by the programmer.
+
 .MODEL TINY 	; CS and DS point to same memory location
 .286		; equivalence of _start
 ORG 100H	; ??
